@@ -1,0 +1,54 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: rgb(99, 181, 181);
+}
+
+.imageContainer {
+    background-color: blueviolet;
+    border-radius: 10px;
+    border:2px solid black;
+    width:400px;
+   
+}
+.title{
+    
+    border-radius: 10px;
+    border: 2px solid rgb(178, 178, 178);
+    padding: 25px;
+    background-color:rgb(80, 72, 224);
+   
+    position: absolute;
+    margin-top: -40px;
+}
+
+.image{
+    width: 350px;
+    margin: 25px;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: auto;
+    display: flex;
+    margin: 100px 10% 100px 10%;
+    justify-content:center;
+    flex-wrap: wrap;
+    border:3px solid black;
+    background-color: rgb(1, 214, 230);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.infobox{
+    margin:auto;
+    border-radius: 10px;
+    border:2px solid black;
+    width: 400px;
+    background-color: rgb(199, 128, 42);
+    padding:25px;
+}
+
